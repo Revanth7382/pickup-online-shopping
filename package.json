@@ -1,8 +1,7 @@
 {
   "name": "online-shoping",
   "version": "1.0.0",
-  "description": "webpage",
-  "main": "server.js",
+  "description": "webpage"
   "scripts": {
     "dev": "set NODE_ENV=developemnt&&nodemon ./backend/server.js",
     "prod": "set NODE_ENV=production&&nodemon ./backend/server.js",
