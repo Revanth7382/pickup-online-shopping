@@ -4,7 +4,6 @@
   "description": "webpage",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./backend/server.js",
     "dev": "set NODE_ENV=developemnt&&nodemon ./backend/server.js",
     "prod": "set NODE_ENV=production&&nodemon ./backend/server.js",
     "seeder": "node backend/utils/seeder.js"
